@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package users ;
+
+service UserService {
+  rpc Add (UserRequest)returns(UserResponse){}
+}
+
+message UserRequest {
+
+}
+
+message UserResponse {
+
+}
